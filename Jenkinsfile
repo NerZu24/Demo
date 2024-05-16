@@ -19,7 +19,7 @@ pipeline {
            stage('Powershell') {
             steps {
                 script {
-                    sh "hostname"
+                    echo "test1"
                 }
             }
         }
