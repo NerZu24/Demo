@@ -5,7 +5,7 @@ pipeline {
             steps {
                 script {
                         echo "Build"
-                        echo "One1"
+                        echo "One"
                 }
             }
         }
