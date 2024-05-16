@@ -16,5 +16,12 @@ pipeline {
                 }
             }
         }
+           stage('Powershell') {
+            steps {
+                script {
+                    sh "pwsh Test.ps1"
+                }
+            }
+        }
     }
 }
