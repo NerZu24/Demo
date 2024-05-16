@@ -19,7 +19,7 @@ pipeline {
            stage('Powershell') {
             steps {
                 script {
-                    sh "pwsh Test.ps1"
+                    sh "hostname"
                 }
             }
         }
